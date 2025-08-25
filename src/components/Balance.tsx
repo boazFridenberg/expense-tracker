@@ -3,7 +3,7 @@ import { Grid, Paper, Typography } from '@mui/material';
 export interface BalanceProps {
   totalIncome: number;
   totalExpense: number;
-  net: number; // income - expense
+  net: number;
 }
 
 export default function Balance({ totalIncome, totalExpense, net }: BalanceProps) {
